@@ -42,9 +42,11 @@ ENV/
 *.log
 logs/
 
-# Data files
+# Data files - keep sample_cvs folder
 data/*
 !data/.gitkeep
+!data/sample_cvs/
+!data/sample_cvs/*
 
 # Temporary files
 tmp/
